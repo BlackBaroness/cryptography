@@ -12,7 +12,7 @@ import org.jetbrains.annotations.NotNull;
 public abstract class JacksumHashAlgorithm implements HashAlgorithm {
 
     private final ThreadLocal<AbstractChecksum> jacksumHolder = ThreadLocalUtil.withInitial(
-            () -> JacksumAPI.getChecksumInstance(jacksumName())
+            () -> JacksumAPI.getChecksumInstance(jacksumName().toLowerCase())
     );
 
     @Contract(value = "-> new", pure = true)

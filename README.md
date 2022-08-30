@@ -1,5 +1,4 @@
-Ultimate encoding and hashing library, based mainly on [norkator/cryptography](https://github.com/norkator/cryptography)
-.
+Ultimate encoding and hashing library, based mainly on [norkator/cryptography](https://github.com/norkator/cryptography).
 
 ### Supported hashes:
 
