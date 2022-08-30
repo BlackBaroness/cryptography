@@ -17,29 +17,29 @@ public class Blake2b {
         Security.addProvider(new BouncyCastleProvider());
     }
 
-    private final HashAlgorithm _160 = new Blake2bAlgorithm<>(org.bouncycastle.jcajce.provider.digest.Blake2b.Blake2b160::new);
-    private final HashAlgorithm _256 = new Blake2bAlgorithm<>(org.bouncycastle.jcajce.provider.digest.Blake2b.Blake2b256::new);
-    private final HashAlgorithm _384 = new Blake2bAlgorithm<>(org.bouncycastle.jcajce.provider.digest.Blake2b.Blake2b384::new);
-    private final HashAlgorithm _512 = new Blake2bAlgorithm<>(org.bouncycastle.jcajce.provider.digest.Blake2b.Blake2b512::new);
+    private final HashAlgorithm v160 = new Blake2bAlgorithm<>(org.bouncycastle.jcajce.provider.digest.Blake2b.Blake2b160::new);
+    private final HashAlgorithm v256 = new Blake2bAlgorithm<>(org.bouncycastle.jcajce.provider.digest.Blake2b.Blake2b256::new);
+    private final HashAlgorithm v384 = new Blake2bAlgorithm<>(org.bouncycastle.jcajce.provider.digest.Blake2b.Blake2b384::new);
+    private final HashAlgorithm v512 = new Blake2bAlgorithm<>(org.bouncycastle.jcajce.provider.digest.Blake2b.Blake2b512::new);
 
     @Contract(pure = true)
-    public @NotNull HashAlgorithm _160() {
-        return _160;
+    public @NotNull HashAlgorithm v160() {
+        return v160;
     }
 
     @Contract(pure = true)
-    public @NotNull HashAlgorithm _256() {
-        return _256;
+    public @NotNull HashAlgorithm v256() {
+        return v256;
     }
 
     @Contract(pure = true)
-    public @NotNull HashAlgorithm _384() {
-        return _384;
+    public @NotNull HashAlgorithm v384() {
+        return v384;
     }
 
     @Contract(pure = true)
-    public @NotNull HashAlgorithm _512() {
-        return _512;
+    public @NotNull HashAlgorithm v512() {
+        return v512;
     }
 
     @RequiredArgsConstructor
