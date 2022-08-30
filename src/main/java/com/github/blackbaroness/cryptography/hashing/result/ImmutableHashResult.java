@@ -11,7 +11,7 @@ public class ImmutableHashResult implements HashResult {
 
     @Override
     public byte @NotNull [] bytes() {
-        return new byte[0];
+        return bytes;
     }
 
     @Override

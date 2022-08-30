@@ -16,27 +16,32 @@ public class Sha {
     private final HashAlgorithm sha512 = new ShaAlgorithm("SHA-512");
 
     @Contract(pure = true)
-    public@NotNull HashAlgorithm v0() {
+    public @NotNull HashAlgorithm sha0() {
         return sha0;
     }
+
     @Contract(pure = true)
-    public@NotNull HashAlgorithm v1() {
+    public @NotNull HashAlgorithm sha1() {
         return sha1;
     }
+
     @Contract(pure = true)
-    public@NotNull HashAlgorithm v224() {
+    public @NotNull HashAlgorithm sha224() {
         return sha224;
     }
+
     @Contract(pure = true)
-    public@NotNull HashAlgorithm v256() {
+    public @NotNull HashAlgorithm sha256() {
         return sha256;
     }
+
     @Contract(pure = true)
-    public@NotNull HashAlgorithm v384() {
+    public @NotNull HashAlgorithm sha384() {
         return sha384;
     }
+
     @Contract(pure = true)
-    public@NotNull HashAlgorithm v512() {
+    public @NotNull HashAlgorithm sha512() {
         return sha512;
     }
 

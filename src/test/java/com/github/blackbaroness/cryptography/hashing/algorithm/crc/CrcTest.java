@@ -10,27 +10,27 @@ class CrcTest {
     private final Crc crc = new Crc();
 
     @Test
-    void v8() {
-        assertEquals("185", crc.v8().hash(HashSources.ofString("test")).string());
+    void crc8() {
+        assertEquals("185", crc.crc8().hash(HashSources.ofString("test")).string());
     }
 
     @Test
-    void v16() {
-        assertEquals("63534", crc.v16().hash(HashSources.ofString("test")).string());
+    void crc16() {
+        assertEquals("63534", crc.crc16().hash(HashSources.ofString("test")).string());
     }
 
     @Test
-    void v24() {
-        assertEquals("16281296", crc.v24().hash(HashSources.ofString("test")).string());
+    void crc24() {
+        assertEquals("16281296", crc.crc24().hash(HashSources.ofString("test")).string());
     }
 
     @Test
-    void v32() {
-        assertEquals("3632233996", crc.v32().hash(HashSources.ofString("test")).string());
+    void crc32() {
+        assertEquals("3632233996", crc.crc32().hash(HashSources.ofString("test")).string());
     }
 
     @Test
-    void v64() {
-        assertEquals("47838d37c0000000", crc.v64().hash(HashSources.ofString("test")).string());
+    void crc64() {
+        assertEquals("47838d37c0000000", crc.crc64().hash(HashSources.ofString("test")).string());
     }
 }

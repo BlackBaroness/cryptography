@@ -8,23 +8,23 @@ import org.jetbrains.annotations.NotNull;
 
 public class Md {
 
-    private final HashAlgorithm v2 = new MdAlgorithm("md2");
-    private final HashAlgorithm v4 = new MdAlgorithm("md4");
-    private final HashAlgorithm v5 = new MdAlgorithm("md5");
+    private final HashAlgorithm md2 = new MdAlgorithm("md2");
+    private final HashAlgorithm md4 = new MdAlgorithm("md4");
+    private final HashAlgorithm md5 = new MdAlgorithm("md5");
 
     @Contract(pure = true)
-    public @NotNull HashAlgorithm v2() {
-        return v2;
+    public @NotNull HashAlgorithm md2() {
+        return md2;
     }
 
     @Contract(pure = true)
-    public @NotNull HashAlgorithm v4() {
-        return v4;
+    public @NotNull HashAlgorithm md4() {
+        return md4;
     }
 
     @Contract(pure = true)
-    public @NotNull HashAlgorithm v5() {
-        return v5;
+    public @NotNull HashAlgorithm md5() {
+        return md5;
     }
 
     @RequiredArgsConstructor
