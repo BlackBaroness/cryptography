@@ -69,7 +69,7 @@ Documantation available on [wiki](https://github.com/BlackBaroness/cryptography/
 
 We use dependencies:
 
-- [BouncyCastle](https://www.bouncycastle.org/) - hashing, encoding etc;
+- [Bouncy Castle](https://www.bouncycastle.org/) - hashing, encoding etc;
 - [Jonelo Jacksum](https://github.com/jonelo/jacksum) - hashing, encoding etc;
 - [Apache Commons IO](https://commons.apache.org/proper/commons-io/) - file reading;
 
