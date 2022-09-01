@@ -9,6 +9,7 @@ import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.File;
+import java.nio.charset.Charset;
 import java.nio.file.Path;
 
 @UtilityClass
@@ -17,6 +18,11 @@ public class HashSources {
     @Contract(value = "_ -> new", pure = true)
     public @NotNull HashSource ofString(@NotNull String string) {
         return new StringHashSource(string);
+    }
+
+    @Contract(value = "_, _ -> new", pure = true)
+    public @NotNull HashSource ofString(@NotNull String string, @NotNull Charset charset) {
+        return new StringHashSource(string, charset);
     }
 
     @Contract(value = "_ -> new", pure = true)
