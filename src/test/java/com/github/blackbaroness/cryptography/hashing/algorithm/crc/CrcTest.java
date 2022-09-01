@@ -1,9 +1,8 @@
 package com.github.blackbaroness.cryptography.hashing.algorithm.crc;
 
-import com.github.blackbaroness.cryptography.hashing.source.HashSources;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static com.github.blackbaroness.cryptography.test.TestHelper.testSimpleHashing;
 
 class CrcTest {
 
@@ -11,26 +10,26 @@ class CrcTest {
 
     @Test
     void crc8() {
-        assertEquals("185", crc.crc8().hash(HashSources.ofString("test")).string());
+        testSimpleHashing(crc.crc8(), "test", "185");
     }
 
     @Test
     void crc16() {
-        assertEquals("63534", crc.crc16().hash(HashSources.ofString("test")).string());
+        testSimpleHashing(crc.crc16(), "test", "63534");
     }
 
     @Test
     void crc24() {
-        assertEquals("16281296", crc.crc24().hash(HashSources.ofString("test")).string());
+        testSimpleHashing(crc.crc24(), "test", "16281296");
     }
 
     @Test
     void crc32() {
-        assertEquals("3632233996", crc.crc32().hash(HashSources.ofString("test")).string());
+        testSimpleHashing(crc.crc32(), "test", "3632233996");
     }
 
     @Test
     void crc64() {
-        assertEquals("47838d37c0000000", crc.crc64().hash(HashSources.ofString("test")).string());
+        testSimpleHashing(crc.crc64(), "test", "47838d37c0000000");
     }
 }

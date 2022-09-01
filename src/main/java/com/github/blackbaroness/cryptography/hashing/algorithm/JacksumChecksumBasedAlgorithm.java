@@ -9,7 +9,7 @@ import net.jacksum.algorithms.AbstractChecksum;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
-public abstract class JacksumHashAlgorithm implements HashAlgorithm {
+public abstract class JacksumChecksumBasedAlgorithm implements HashAlgorithm {
 
     private final ThreadLocal<AbstractChecksum> jacksumHolder = ThreadLocalUtil.withInitial(
             () -> JacksumAPI.getChecksumInstance(jacksumName().toLowerCase())

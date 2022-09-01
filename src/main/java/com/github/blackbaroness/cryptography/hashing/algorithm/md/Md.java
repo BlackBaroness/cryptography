@@ -1,7 +1,7 @@
 package com.github.blackbaroness.cryptography.hashing.algorithm.md;
 
 import com.github.blackbaroness.cryptography.hashing.algorithm.HashAlgorithm;
-import com.github.blackbaroness.cryptography.hashing.algorithm.JacksumHashAlgorithm;
+import com.github.blackbaroness.cryptography.hashing.algorithm.JacksumChecksumBasedAlgorithm;
 import lombok.RequiredArgsConstructor;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
@@ -28,7 +28,7 @@ public class Md {
     }
 
     @RequiredArgsConstructor
-    private static class MdAlgorithm extends JacksumHashAlgorithm {
+    private static class MdAlgorithm extends JacksumChecksumBasedAlgorithm {
 
         private final String algorithm;
 

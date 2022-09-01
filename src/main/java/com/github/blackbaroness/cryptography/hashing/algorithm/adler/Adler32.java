@@ -1,9 +1,9 @@
 package com.github.blackbaroness.cryptography.hashing.algorithm.adler;
 
-import com.github.blackbaroness.cryptography.hashing.algorithm.JacksumHashAlgorithm;
+import com.github.blackbaroness.cryptography.hashing.algorithm.JacksumChecksumBasedAlgorithm;
 import org.jetbrains.annotations.NotNull;
 
-public class Adler32 extends JacksumHashAlgorithm {
+public class Adler32 extends JacksumChecksumBasedAlgorithm {
 
     @Override
     protected @NotNull String jacksumName() {

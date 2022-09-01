@@ -1,7 +1,7 @@
 package com.github.blackbaroness.cryptography.hashing.algorithm.sha;
 
 import com.github.blackbaroness.cryptography.hashing.algorithm.HashAlgorithm;
-import com.github.blackbaroness.cryptography.hashing.algorithm.JacksumHashAlgorithm;
+import com.github.blackbaroness.cryptography.hashing.algorithm.JacksumChecksumBasedAlgorithm;
 import lombok.RequiredArgsConstructor;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
@@ -46,7 +46,7 @@ public class Sha {
     }
 
     @RequiredArgsConstructor
-    private static class ShaAlgorithm extends JacksumHashAlgorithm {
+    private static class ShaAlgorithm extends JacksumChecksumBasedAlgorithm {
 
         private final String algorithm;
 
