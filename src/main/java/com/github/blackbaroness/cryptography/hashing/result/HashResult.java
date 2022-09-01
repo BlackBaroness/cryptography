@@ -14,7 +14,7 @@ public interface HashResult {
     @NotNull String string();
 
     @Contract(pure = true)
-    default boolean compare(@NotNull HashResult hashResult) {
+    default boolean same(@NotNull HashResult hashResult) {
         return Arrays.equals(bytes(), hashResult.bytes());
     }
 }
