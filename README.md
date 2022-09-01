@@ -1,4 +1,4 @@
-Easy to use and high-performance encoding and hashing library, 
+⚡ Easy to use and high-performance encoding and hashing library,
 based powered on [jacksum](https://github.com/jonelo/jacksum).
 
 **Requires Java version 11 or higher.**
@@ -16,18 +16,49 @@ based powered on [jacksum](https://github.com/jonelo/jacksum).
 <details>
   <summary>Maven</summary>
 
-  ```xml
-  <repository>
+Add this to your `pom.xml`:
+
+```xml
+
+<repository>
     <id>jitpack.io</id>
     <url>https://jitpack.io</url>
-  </repository>
-  ```
+</repository>
+```
 
-  ```xml
-  <dependency>
+```xml
+
+<dependency>
     <groupId>com.github.BlackBaroness</groupId>
     <artifactId>cryptography</artifactId>
     <version>master-SNAPSHOT</version>
-  </dependency>
-  ```
+</dependency>
+```
+
 </details>
+
+<details>
+  <summary>Gradle</summary>
+
+Add this to your `build.gradle`:
+
+```gradle
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+```gradle
+dependencies {
+    implementation 'com.github.BlackBaroness:cryptography:master-SNAPSHOT'
+}
+```
+
+</details>
+
+### Usage
+
+Documantation available on [wiki](https://github.com/BlackBaroness/cryptography/wiki).
