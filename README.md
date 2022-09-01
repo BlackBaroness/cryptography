@@ -1,5 +1,7 @@
-Ultimate encoding and hashing library, 
-based mainly on [norkator/cryptography](https://github.com/norkator/cryptography).
+Easy to use and high-performance encoding and hashing library, 
+based powered on [jacksum](https://github.com/jonelo/jacksum).
+
+**Requires Java version 11 or higher.**
 
 ### Supported hashes:
 
