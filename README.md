@@ -3,7 +3,7 @@
 ⚡ Easy to use and high-performance encoding and hashing library,
 mainly powered on [jacksum](https://github.com/jonelo/jacksum).
 
-**Requires Java version 11 or higher.**
+**Requires Java 11 or higher.**
 
 ### Supported hashes:
 
@@ -64,3 +64,19 @@ dependencies {
 ### Usage
 
 Documantation available on [wiki](https://github.com/BlackBaroness/cryptography/wiki).
+
+### Dependencies
+
+We use dependencies:
+
+- [BouncyCastle](https://www.bouncycastle.org/) - hashing, encoding etc;
+- [Jonelo Jacksum](https://github.com/jonelo/jacksum) - hashing, encoding etc;
+- [Apache Commons IO](https://commons.apache.org/proper/commons-io/) - file reading;
+
+In addition, we use:
+
+- [JUnit 5](https://junit.org/junit5/) - unit testing;
+- [Jetbrains Annotations](https://www.jetbrains.com/help/idea/annotating-source-code.html) - better code
+documentation via annotations;
+- [Checker Framework](https://checkerframework.org/) - something like the point above, but much more powerful;
+- [Lombok](https://projectlombok.org/) - syntactic sugar and less boilerplate code; 
