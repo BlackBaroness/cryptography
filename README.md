@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/440f3b75ec8f41c25ea8/maintainability)](https://codeclimate.com/github/BlackBaroness/cryptography/maintainability)
+
 ⚡ Easy to use and high-performance encoding and hashing library,
 mainly powered on [jacksum](https://github.com/jonelo/jacksum).
 
