@@ -1,18 +1,17 @@
 package com.github.blackbaroness.cryptography.hashing.algorithm.crc;
 
 import com.github.blackbaroness.cryptography.hashing.algorithm.HashAlgorithm;
-import com.github.blackbaroness.cryptography.hashing.algorithm.JacksumChecksumBasedAlgorithm;
-import lombok.RequiredArgsConstructor;
+import com.github.blackbaroness.cryptography.hashing.algorithm.SimpleJacksumChecksumAlgorithm;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
 public class Crc {
 
-    private final HashAlgorithm crc8 = new CrcAlgorithm("crc-8");
-    private final HashAlgorithm crc16 = new CrcAlgorithm("crc-16");
-    private final HashAlgorithm crc24 = new CrcAlgorithm("crc-24");
-    private final HashAlgorithm crc32 = new CrcAlgorithm("crc-32");
-    private final HashAlgorithm crc64 = new CrcAlgorithm("crc-64");
+    private final HashAlgorithm crc8 = new SimpleJacksumChecksumAlgorithm("crc-8");
+    private final HashAlgorithm crc16 = new SimpleJacksumChecksumAlgorithm("crc-16");
+    private final HashAlgorithm crc24 = new SimpleJacksumChecksumAlgorithm("crc-24");
+    private final HashAlgorithm crc32 = new SimpleJacksumChecksumAlgorithm("crc-32");
+    private final HashAlgorithm crc64 = new SimpleJacksumChecksumAlgorithm("crc-64");
 
     @Contract(pure = true)
     public @NotNull HashAlgorithm crc8() {
@@ -37,16 +36,5 @@ public class Crc {
     @Contract(pure = true)
     public @NotNull HashAlgorithm crc64() {
         return crc64;
-    }
-
-    @RequiredArgsConstructor
-    private static class CrcAlgorithm extends JacksumChecksumBasedAlgorithm {
-
-        private final String algorithm;
-
-        @Override
-        protected @NotNull String jacksumName() {
-            return algorithm;
-        }
     }
 }

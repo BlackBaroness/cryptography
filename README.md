@@ -13,6 +13,7 @@ mainly powered on [jacksum](https://github.com/jonelo/jacksum).
 - MD (2, 4, 5)
 - SHA (0, 1, 224, 256, 384, 512)
 - Tiger (Tiger, Tiger2, 128, 180)
+- Whirlpool (0, 1, 2)
 
 ### Import
 

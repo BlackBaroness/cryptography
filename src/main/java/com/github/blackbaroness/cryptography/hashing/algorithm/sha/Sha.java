@@ -1,19 +1,18 @@
 package com.github.blackbaroness.cryptography.hashing.algorithm.sha;
 
 import com.github.blackbaroness.cryptography.hashing.algorithm.HashAlgorithm;
-import com.github.blackbaroness.cryptography.hashing.algorithm.JacksumChecksumBasedAlgorithm;
-import lombok.RequiredArgsConstructor;
+import com.github.blackbaroness.cryptography.hashing.algorithm.SimpleJacksumChecksumAlgorithm;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
 public class Sha {
 
-    private final HashAlgorithm sha0 = new ShaAlgorithm("SHA-0");
-    private final HashAlgorithm sha1 = new ShaAlgorithm("SHA-1");
-    private final HashAlgorithm sha224 = new ShaAlgorithm("SHA-224");
-    private final HashAlgorithm sha256 = new ShaAlgorithm("SHA-256");
-    private final HashAlgorithm sha384 = new ShaAlgorithm("SHA-384");
-    private final HashAlgorithm sha512 = new ShaAlgorithm("SHA-512");
+    private final HashAlgorithm sha0 = new SimpleJacksumChecksumAlgorithm("SHA-0");
+    private final HashAlgorithm sha1 = new SimpleJacksumChecksumAlgorithm("SHA-1");
+    private final HashAlgorithm sha224 = new SimpleJacksumChecksumAlgorithm("SHA-224");
+    private final HashAlgorithm sha256 = new SimpleJacksumChecksumAlgorithm("SHA-256");
+    private final HashAlgorithm sha384 = new SimpleJacksumChecksumAlgorithm("SHA-384");
+    private final HashAlgorithm sha512 = new SimpleJacksumChecksumAlgorithm("SHA-512");
 
     @Contract(pure = true)
     public @NotNull HashAlgorithm sha0() {
@@ -43,16 +42,5 @@ public class Sha {
     @Contract(pure = true)
     public @NotNull HashAlgorithm sha512() {
         return sha512;
-    }
-
-    @RequiredArgsConstructor
-    private static class ShaAlgorithm extends JacksumChecksumBasedAlgorithm {
-
-        private final String algorithm;
-
-        @Override
-        protected @NotNull String jacksumName() {
-            return algorithm;
-        }
     }
 }
