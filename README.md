@@ -1,5 +1,5 @@
 ⚡ Easy to use and high-performance encoding and hashing library,
-based powered on [jacksum](https://github.com/jonelo/jacksum).
+mainly powered on [jacksum](https://github.com/jonelo/jacksum).
 
 **Requires Java version 11 or higher.**
 
