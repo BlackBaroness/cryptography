@@ -16,6 +16,8 @@ mainly powered on [jacksum](https://github.com/jonelo/jacksum).
 - MD (2, 4, 5)
 - RIPEMD (128, 160, 256, 320)
 - SHA (0, 1, 224, 256, 384, 512)
+- Skein (256_128, 256_160, 256_224, 256_256, 512_128, 512_160, 512_224, 512_256, 512_384, 512_512, 1024_384, 1024_512,
+  1024_1024)
 - Tiger (Tiger, Tiger2, 128, 180)
 - Whirlpool (0, 1, 2)
 
@@ -83,6 +85,6 @@ In addition, we use:
 
 - [JUnit 5](https://junit.org/junit5/) - unit testing;
 - [Jetbrains Annotations](https://www.jetbrains.com/help/idea/annotating-source-code.html) - better code
-documentation via annotations;
+  documentation via annotations;
 - [Checker Framework](https://checkerframework.org/) - something like the point above, but much more powerful;
 - [Lombok](https://projectlombok.org/) - syntactic sugar and less boilerplate code; 
