@@ -9,18 +9,19 @@ mainly powered on [jacksum](https://github.com/jonelo/jacksum).
 
 | Family            | Implementations                                                                                                                                                                          |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Adler32           | Adler32                                                                                                                                                                                  |
-| BLAKE2b           | BLAKE2b-160, BLAKE2b-256, BLAKE2b-384, BLAKE2b-512                                                                                                                                       |
-| CRC               | CRC-8, CRC-16, CRC-24, CRC-32, CRC-64                                                                                                                                                    |
-| HAS-160           | HAS-160                                                                                                                                                                                  |
-| Keccak (SHA-3)    | Keccak-224, Keccak-256, Keccak-288, Keccak-384, Keccak-512                                                                                                                               |
-| Kupyna (DSTU7564) | Kupyna-256, Kupyna-384, Kupyna-512                                                                                                                                                       |
 | MD                | MD2, MD4, MD5                                                                                                                                                                            |
-| RIPEMD            | RIPEMD-128, RIPEMD-160, RIPEMD-256, RIPEMD-320                                                                                                                                           |
 | SHA               | SHA-0, SHA-1, SHA-224, SHA-256, SHA-384, SHA-512                                                                                                                                         |
+| BLAKE2b           | BLAKE2b-160, BLAKE2b-256, BLAKE2b-384, BLAKE2b-512                                                                                                                                       |
+| BLAKE2s           | BLAKE2s-128, BLAKE2s-160, BLAKE2s-224, BLAKE2s-256                                                                                                                                       |
+| CRC               | CRC-8, CRC-16, CRC-24, CRC-32, CRC-64                                                                                                                                                    |
+| Keccak (SHA-3)    | Keccak-224, Keccak-256, Keccak-288, Keccak-384, Keccak-512                                                                                                                               |
+| RIPEMD            | RIPEMD-128, RIPEMD-160, RIPEMD-256, RIPEMD-320                                                                                                                                           |
 | Skein             | Skein256-128, Skein256-160, Skein256-224, Skein256-256, Skein512-128, Skein512-160, Skein512-224, Skein512-256, Skein512-384, Skein512-512, Skein1024-384, Skein1024-512, Skein1024-1024 |
 | Tiger             | Tiger, Tiger2, Tiger-128, Tiger-180                                                                                                                                                      |
 | Whirlpool         | Whirlpool-0, Whirlpool-1, Whirlpool-2                                                                                                                                                    |
+| Adler32           | Adler32                                                                                                                                                                                  |
+| HAS-160           | HAS-160                                                                                                                                                                                  |
+| Kupyna (DSTU7564) | Kupyna-256, Kupyna-384, Kupyna-512                                                                                                                                                       |
 
 ### Import
 
