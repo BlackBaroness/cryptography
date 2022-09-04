@@ -1,27 +1,27 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/440f3b75ec8f41c25ea8/maintainability)](https://codeclimate.com/github/BlackBaroness/cryptography/maintainability)
 
-⚡ Easy to use and high-performance encoding and hashing library,
-mainly powered on [jacksum](https://github.com/jonelo/jacksum).
+⚡ Easy to use and high-performance encoding and hashing library.
 
 **Requires Java 11 or higher.**
 
 ### Supported hashes:
 
-| Family            | Implementations                                                                                                                                                                          |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| MD                | MD2, MD4, MD5                                                                                                                                                                            |
-| SHA               | SHA-0, SHA-1, SHA-224, SHA-256, SHA-384, SHA-512                                                                                                                                         |
-| BLAKE2b           | BLAKE2b-160, BLAKE2b-256, BLAKE2b-384, BLAKE2b-512                                                                                                                                       |
-| BLAKE2s           | BLAKE2s-128, BLAKE2s-160, BLAKE2s-224, BLAKE2s-256                                                                                                                                       |
-| CRC               | CRC-8, CRC-16, CRC-24, CRC-32, CRC-64                                                                                                                                                    |
-| Keccak (SHA-3)    | Keccak-224, Keccak-256, Keccak-288, Keccak-384, Keccak-512                                                                                                                               |
-| RIPEMD            | RIPEMD-128, RIPEMD-160, RIPEMD-256, RIPEMD-320                                                                                                                                           |
-| Skein             | Skein256-128, Skein256-160, Skein256-224, Skein256-256, Skein512-128, Skein512-160, Skein512-224, Skein512-256, Skein512-384, Skein512-512, Skein1024-384, Skein1024-512, Skein1024-1024 |
-| Tiger             | Tiger, Tiger2, Tiger-128, Tiger-180                                                                                                                                                      |
-| Whirlpool         | Whirlpool-0, Whirlpool-1, Whirlpool-2                                                                                                                                                    |
-| Adler32           | Adler32                                                                                                                                                                                  |
-| HAS-160           | HAS-160                                                                                                                                                                                  |
-| Kupyna (DSTU7564) | Kupyna-256, Kupyna-384, Kupyna-512                                                                                                                                                       |
+| Family                                                               | Implementations                                                                                                                                                                          |
+|----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| MD                                                                   | [MD2](https://en.wikipedia.org/wiki/MD2_(hash_function)), [MD4](https://en.wikipedia.org/wiki/MD4), [MD5](https://en.wikipedia.org/wiki/MD5)                                             |
+| [SHA](https://en.wikipedia.org/wiki/SHA-1)                           | SHA-0, SHA-1, SHA-224, SHA-256, SHA-384, SHA-512                                                                                                                                         |
+| [BLAKE2b](https://en.wikipedia.org/wiki/BLAKE_(hash_function))       | BLAKE2b-160, BLAKE2b-256, BLAKE2b-384, BLAKE2b-512                                                                                                                                       |
+| [BLAKE2s](https://en.wikipedia.org/wiki/BLAKE_(hash_function))       | BLAKE2s-128, BLAKE2s-160, BLAKE2s-224, BLAKE2s-256                                                                                                                                       |
+| [CRC](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)         | CRC-8, CRC-16, CRC-24, CRC-32, CRC-64                                                                                                                                                    |
+| [Keccak (SHA-3)](https://en.wikipedia.org/wiki/SHA-3)                | Keccak-224, Keccak-256, Keccak-288, Keccak-384, Keccak-512                                                                                                                               |
+| [RIPEMD](https://en.wikipedia.org/wiki/RIPEMD)                       | RIPEMD-128, RIPEMD-160, RIPEMD-256, RIPEMD-320                                                                                                                                           |
+| [Skein](https://en.wikipedia.org/wiki/Skein_(hash_function))         | Skein256-128, Skein256-160, Skein256-224, Skein256-256, Skein512-128, Skein512-160, Skein512-224, Skein512-256, Skein512-384, Skein512-512, Skein1024-384, Skein1024-512, Skein1024-1024 |
+| [Tiger](https://en.wikipedia.org/wiki/Tiger_(hash_function))         | Tiger, Tiger2, Tiger-128, Tiger-180                                                                                                                                                      |
+| [Whirlpool](https://en.wikipedia.org/wiki/Whirlpool_(hash_function)) | Whirlpool-0, Whirlpool-1, Whirlpool-2                                                                                                                                                    |
+| [Adler32](https://en.wikipedia.org/wiki/Adler-32)                    | Adler32                                                                                                                                                                                  |
+| [HAS-160](https://en.wikipedia.org/wiki/HAS-160)                     | HAS-160                                                                                                                                                                                  |
+| [Kupyna (DSTU7564)](https://en.wikipedia.org/wiki/Kupyna)            | Kupyna-256, Kupyna-384, Kupyna-512                                                                                                                                                       |
+| [SM3](https://en.wikipedia.org/wiki/SM3_(hash_function))             | SM3                                                                                                                                                                                      |
 
 ### Import
 
