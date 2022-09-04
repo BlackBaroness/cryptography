@@ -14,6 +14,7 @@ mainly powered on [jacksum](https://github.com/jonelo/jacksum).
 - Keccak (SHA-3) (224, 256, 288, 384, 512)
 - Kupyna (DSTU7564) (256, 384, 512)
 - MD (2, 4, 5)
+- RIPEMD (128, 160, 256, 320)
 - SHA (0, 1, 224, 256, 384, 512)
 - Tiger (Tiger, Tiger2, 128, 180)
 - Whirlpool (0, 1, 2)
