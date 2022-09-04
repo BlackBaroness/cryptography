@@ -7,20 +7,20 @@ mainly powered on [jacksum](https://github.com/jonelo/jacksum).
 
 ### Supported hashes:
 
-| Family            | Implementations                                                                                                         |
-|-------------------|-------------------------------------------------------------------------------------------------------------------------|
-| Adler32           | Adler32                                                                                                                 |
-| Blake2b           | 160, 256, 384, 512                                                                                                      |
-| CRC               | 8, 16, 24, 32, 64                                                                                                       |
-| HAS-160           | HAS-160                                                                                                                 |
-| Keccak (SHA-3)    | 224, 256, 288, 384, 512                                                                                                 |
-| Kupyna (DSTU7564) | 256, 384, 512                                                                                                           |
-| MD                | 2, 4, 5                                                                                                                 |
-| RIPEMD            | 128, 160, 256, 320                                                                                                      |
-| SHA               | 0, 1, 224, 256, 384, 512                                                                                                |
-| Skein             | 256_128, 256_160, 256_224, 256_256, 512_128, 512_160, 512_224, 512_256, 512_384, 512_512, 1024_384, 1024_512, 1024_1024 |
-| Tiger             | Tiger, Tiger2, 128, 180                                                                                                 |
-| Whirlpool         | 0, 1, 2                                                                                                                 |
+| Family            | Implementations                                                                                                                                                                          |
+|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Adler32           | Adler32                                                                                                                                                                                  |
+| BLAKE2b           | BLAKE2b-160, BLAKE2b-256, BLAKE2b-384, BLAKE2b-512                                                                                                                                       |
+| CRC               | CRC-8, CRC-16, CRC-24, CRC-32, CRC-64                                                                                                                                                    |
+| HAS-160           | HAS-160                                                                                                                                                                                  |
+| Keccak (SHA-3)    | Keccak-224, Keccak-256, Keccak-288, Keccak-384, Keccak-512                                                                                                                               |
+| Kupyna (DSTU7564) | Kupyna-256, Kupyna-384, Kupyna-512                                                                                                                                                       |
+| MD                | MD2, MD4, MD5                                                                                                                                                                            |
+| RIPEMD            | RIPEMD-128, RIPEMD-160, RIPEMD-256, RIPEMD-320                                                                                                                                           |
+| SHA               | SHA-0, SHA-1, SHA-224, SHA-256, SHA-384, SHA-512                                                                                                                                         |
+| Skein             | Skein256-128, Skein256-160, Skein256-224, Skein256-256, Skein512-128, Skein512-160, Skein512-224, Skein512-256, Skein512-384, Skein512-512, Skein1024-384, Skein1024-512, Skein1024-1024 |
+| Tiger             | Tiger, Tiger2, Tiger-128, Tiger-180                                                                                                                                                      |
+| Whirlpool         | Whirlpool-0, Whirlpool-1, Whirlpool-2                                                                                                                                                    |
 
 ### Import
 
