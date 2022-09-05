@@ -23,6 +23,7 @@
 | [Kupyna (DSTU7564)](https://en.wikipedia.org/wiki/Kupyna)            | Kupyna-256, Kupyna-384, Kupyna-512                                                                                                                                                       |
 | [SM3](https://en.wikipedia.org/wiki/SM3_(hash_function))             | SM3                                                                                                                                                                                      |
 | sum                                                                  | sum8, sum16, sum24, sum32                                                                                                                                                                |
+| [Xor8](https://en.wikipedia.org/wiki/Longitudinal_redundancy_check)  | Xor8                                                                                                                                                                                     |
 
 ### Import
 
