@@ -1,10 +1,10 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/440f3b75ec8f41c25ea8/maintainability)](https://codeclimate.com/github/BlackBaroness/cryptography/maintainability)
 
-⚡ Easy to use and high-performance encoding and hashing library.
+⚡ Easy to use and high-performance encoding and hashing library. 
 
 **Requires Java 11 or higher.**
 
-### Supported hashes:
+### Supported hash functions:
 
 | Family                                                               | Implementations                                                                                                                                                                          |
 |----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -22,6 +22,7 @@
 | [HAS-160](https://en.wikipedia.org/wiki/HAS-160)                     | HAS-160                                                                                                                                                                                  |
 | [Kupyna (DSTU7564)](https://en.wikipedia.org/wiki/Kupyna)            | Kupyna-256, Kupyna-384, Kupyna-512                                                                                                                                                       |
 | [SM3](https://en.wikipedia.org/wiki/SM3_(hash_function))             | SM3                                                                                                                                                                                      |
+| sum                                                                  | sum8, sum16, sum24, sum32                                                                                                                                                                |
 
 ### Import
 
