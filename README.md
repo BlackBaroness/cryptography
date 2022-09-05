@@ -24,6 +24,7 @@
 | [SM3](https://en.wikipedia.org/wiki/SM3_(hash_function))             | SM3                                                                                                                                                                                      |
 | sum                                                                  | sum8, sum16, sum24, sum32                                                                                                                                                                |
 | [Xor8](https://en.wikipedia.org/wiki/Longitudinal_redundancy_check)  | Xor8                                                                                                                                                                                     |
+| FCS                                                                  | FCS-16, FCS-32                                                                                                                                                                           |
 
 ### Import
 
