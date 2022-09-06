@@ -1,6 +1,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/440f3b75ec8f41c25ea8/maintainability)](https://codeclimate.com/github/BlackBaroness/cryptography/maintainability)
 
-⚡ Easy to use and high-performance encoding and hashing library.
+⚡ Easy to use and high-performance hashing, encoding and cipher library.
 
 **Requires Java 11 or higher.**
 
@@ -74,6 +74,10 @@ dependencies {
 | [Xor8](https://en.wikipedia.org/wiki/Longitudinal_redundancy_check)        | Xor8                                                                                                                                                                                     |
 | FCS                                                                        | FCS-16, FCS-32                                                                                                                                                                           |
 | [ELF (Unix)](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) | ELF-32                                                                                                                                                                                   |
+
+## Supported ciphers:
+
+- A1z26
 
 ## Usage
 
