@@ -2,7 +2,7 @@ package com.github.blackbaroness.cryptography.cipher;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class A1z26Test {
 
